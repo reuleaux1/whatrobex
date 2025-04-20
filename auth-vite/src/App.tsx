@@ -2,6 +2,7 @@ import * as React from 'react';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import CheckroomIcon from '@mui/icons-material/Checkroom';
+import DataArrayIcon from '@mui/icons-material/DataArray';
 import { ReactRouterAppProvider } from '@toolpad/core/react-router';
 import { Outlet, useNavigate } from 'react-router';
 import type { Navigation, Session } from '@toolpad/core/AppProvider';
@@ -29,7 +30,7 @@ const NAVIGATION: Navigation = [
   {
     segment: 'fetchdata',
     title: 'fetch',
-    icon: <CheckroomIcon />,
+    icon: <DataArrayIcon />,
   },
 ];
 

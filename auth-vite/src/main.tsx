@@ -7,6 +7,7 @@ import DashboardPage from './pages';
 import OrdersPage from './pages/orders';
 import SignInPage from './pages/signIn';
 import WhatrobePage from './pages/whatrobe';
+import fetchdatapage from './pages/fetchdata';
 const router = createBrowserRouter([
   {
     Component: App,
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
           {
             path: '/whatrobe',
             Component: WhatrobePage,
+          },
+          {
+            path: '/fetchdata',
+            Component: fetchdatapage,
           },
         ],
       },

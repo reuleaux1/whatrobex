@@ -26,6 +26,11 @@ const NAVIGATION: Navigation = [
     title: 'Clothes',
     icon: <CheckroomIcon />,
   },
+  {
+    segment: 'fetchdata',
+    title: 'fetch',
+    icon: <CheckroomIcon />,
+  },
 ];
 
 const BRANDING = {
